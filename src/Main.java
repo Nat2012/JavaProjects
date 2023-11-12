@@ -1,11 +1,3 @@
-import datatype.*;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-
-
-import static datatype.DateTeller.dateTeller;
-import static datatype.DateTimeTeller.dateTimeTeller;
-
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
 public class Main {
@@ -52,5 +44,16 @@ public class Main {
 //        codermaster. finishedOurCode();
 //        System.out.println(dateTeller(LocalDate.of(2023, 10, 22)));
 //        System.out.println(dateTimeTeller(LocalDateTime.of(2023, 10, 22, 17, 57)));
+//        System.out.println(dateComparer(LocalDate.of(2023, 10, 29), LocalDate.of(1960, 10, 1)));
+//        System.out.println(dateTimeComparer(LocalDateTime.of(2023, 10, 29, 17, 11), LocalDateTime.of(2012, 9, 21, 12, 0)));
+//        System.out.println(dateAdderAndRemover("+", LocalDate.of(2023, 10, 29), LocalDate.of(2021, 2, 2)));
+//        System.out.println(checkIfLeapYear(Year.of(2023)));
+//        System.out.println(findLeapDate(Year.of()));
+//        System.out.println(findMultiLeapDate(Year.of(2020), Year.of(2024)));
+//        System.out.println(teamMeetingScheduler(LocalDate.of(2024,12,1), 7));
+//        System.out.println(dateToLocalDate(new Date()));
+//        System.out.println(dateToLocalDateTime(new Date()));
+//        System.out.println(localDateToDate(LocalDate.now()));
+//        System.out.println(localDateTimeToDate(LocalDateTime.now()));
     }
 }
